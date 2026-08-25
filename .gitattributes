@@ -1,0 +1,3 @@
+*.sh       text eol=lf
+PKGBUILD   text eol=lf linguist-language=Shell
+*.install  text eol=lf linguist-language=Shell
