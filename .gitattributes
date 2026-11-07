@@ -1,3 +1,5 @@
 *.sh       text eol=lf
 PKGBUILD   text eol=lf linguist-language=Shell
+.SRCINFO   text eol=lf
 *.install  text eol=lf linguist-language=Shell
+*.desktop  text eol=lf
