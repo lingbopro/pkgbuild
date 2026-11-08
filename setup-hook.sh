@@ -10,8 +10,9 @@ if [ -z "\$PKGBUILDS" ]; then
   exit 0
 fi
 
-if ! command -v makepkg &> /dev/null; then
+if ! command -v makepkg >/dev/null; then
   echo '==> WARNING: makepkg not found, skipping .SRCINFO check'
+  exit 0
 fi
 
 for PKGBUILD in \$PKGBUILDS; do
